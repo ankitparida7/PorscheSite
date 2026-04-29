@@ -1,0 +1,36 @@
+html, body {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom, black, white);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*Landing Page*/
+.gridContainer{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+.items{
+    justify-items: center;
+    text-align: center;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+}
+
+#page2{
+    height: 100%;
+    width: 100%;
+}
+
+#page3{
+    height: 100%;
+    width: 100%;
+}
