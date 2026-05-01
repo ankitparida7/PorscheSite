@@ -8,22 +8,63 @@ html, body {
 
 /*Landing Page*/
 .gridContainer{
+    /*background-color: aliceblue;*/
     height: 100vh;
     width: 100%;
     display: grid;
     grid-template-rows: 1fr 1fr;
     justify-items: center;
     align-items: center;
-}
-.items{
-    justify-items: center;
-    text-align: center;
+    gap: 0px;
 }
 
-#page1{
-    height: 100%;
+.brand{
+    /*background-color: aquamarine;*/
+    height: auto;
     width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items:end;
 }
+.model{
+    /*background-color: aquamarine;*/
+    height: auto;
+    width: 50%;
+    display: grid;
+    justify-items: center;
+    align-items:start;
+}
+
+/*Intro Page*/
+.page1{
+    background-color: aliceblue;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.intro{
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.intro-heading{
+    background-color: aquamarine;
+    display: grid;
+    align-items: end;
+    justify-content: center;
+    
+}
+.intro-body{
+    
+    background-color:beige;
+    display: grid;
+    align-items: start;
+    justify-content: center;
+    text-align:justify;
+}
+
 
 #page2{
     height: 100%;
