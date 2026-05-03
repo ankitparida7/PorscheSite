@@ -5,9 +5,11 @@ gsap.utils.toArray(".spec").forEach((section, i) => {
             opacity: 1,
             scrollTrigger: {
                 trigger: section,
-                start: "top center",
+                start: "top 50%",
+                //end: "bottom 20%",
                 toggleActions: "play reverse play reverse",
-                markers: true
+                markers: true,
+                // pin: true
             }
         }
     );

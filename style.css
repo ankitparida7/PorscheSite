@@ -68,32 +68,112 @@ html, body {
     text-align:justify;
     padding: 0px 50px;
 
-    font-family: "Birthstone", cursive;
-    font-weight: 400;
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: 300;
     font-style: normal;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 /*Performance Page*/
 .page2{
-    background-color:aqua;
-    height: 100vh;
+    /* background-color:aqua; */
+    height: auto;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 .infoSpace{
+    display: grid;
     grid-column: 2;
 
 }
+.engine{
+    /* background-color: yellowgreen; */
+    display: grid;
+    height: 100vh;
+    width: 80%;
+    align-content: center;
+    justify-content: center;
+}
+.drivetrain{
+    /* background-color: yellowgreen; */
+    display: grid;
+    height: 100vh;
+    width: 80%;
+    align-content: center;
+    justify-content: center;
+}
+.transmission{
+    /* background-color: yellowgreen; */
+    display: grid;
+    height: 100vh;
+    width: 80%;
+    align-content: center;
+    justify-content: center;
+}
+.horsepower{
+    /* background-color: yellowgreen; */
+    display: grid;
+    height: 100vh;
+    width: 80%;
+    align-content: center;
+    justify-content: center;
+}
+.torque{
+    /* background-color: yellowgreen; */
+    display: grid;
+    height: 100vh;
+    width: 80%;
+    align-content: center;
+    justify-content: center;
+}
+.acceleration{
+    /* background-color: yellowgreen; */
+    display: grid;
+    height: 100vh;
+    width: 80%;
+    align-content: center;
+    justify-content: center;
+}
+.topSpeed{
+    /* background-color: yellowgreen; */
+    display: grid;
+    height: 100vh;
+    width: 80%;
+    align-content: center;
+    justify-content: center;
+}
 .spec h3 {
-    background-color: blue;
+    /* background-color: blue; */
     font-size: 2rem;
-    color: white;
+    /* color: white; */
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    text-align:justify;
+    padding: 0px 50px;
+
+    font-family: "Audiowide", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2vw;
 }
 .spec p {
-    background-color: blueviolet;
-    color: lightgray;
+    /* background-color: blueviolet; */
+    /* color: lightgray; */
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align:justify;
+    padding: 0px 50px;
+
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1vw;
+
 }
 
 
